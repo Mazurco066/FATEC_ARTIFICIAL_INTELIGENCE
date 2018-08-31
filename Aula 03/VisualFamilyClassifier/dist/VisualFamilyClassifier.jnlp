@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="VisualFamilyClassifier.jnlp">
+  <information>
+    <title>VisualFamilyClassifier</title>
+    <vendor>aluno</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="VisualFamilyClassifier.jar" size="6227" download="eager" />
+    <jar href="lib\weka.jar" size="11111002" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="VisualFamilyClassifier" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="visualfamilyclassifier.VisualFamilyClassifier"  name="VisualFamilyClassifier" />
+  <update check="always"/>
+</jnlp>

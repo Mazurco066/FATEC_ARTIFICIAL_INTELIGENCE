@@ -1,0 +1,2 @@
+Criar uma aplicação visual para classificar família dos animais com base
+nos atributos informados

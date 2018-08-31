@@ -1,0 +1,60 @@
+@RELATION zoo
+
+@ATTRIBUTE 'animal' STRING
+@ATTRIBUTE 'pelo' {True, False}
+@ATTRIBUTE 'penas' {True, False}
+@ATTRIBUTE 'ovos' {True, False}
+@ATTRIBUTE 'leite' {True, False}
+@ATTRIBUTE 'aereo' {True, False}
+@ATTRIBUTE 'aquatico' {True, False}
+@ATTRIBUTE 'predador' {True, False}
+@ATTRIBUTE 'dentes' {True, False}
+@ATTRIBUTE 'vertebrado' {True, False}
+@ATTRIBUTE 'respira' {True, False}
+@ATTRIBUTE 'venenoso' {True, False}
+@ATTRIBUTE 'barbatanas' {True, False}
+@ATTRIBUTE 'pernas' NUMERIC
+@ATTRIBUTE 'rabo' {True, False}
+@ATTRIBUTE 'domestico' {True, False}
+@ATTRIBUTE 'catsize' {True, False}
+@ATTRIBUTE 'tipo' {mamifero, ave, reptil, peixe, anfibio, inseto, invertebrado}
+
+
+@DATA
+'aardvark', True, False, False, True, False, False, True, True, True, True, False, False, 4, True, False, False, mamifero
+'antilope', True, False, False, True, False, False, False, True, True, True, False, False, 4, True, False, True, mamifero
+'urso', True, False, False, True, False, False, True, True, True, True, False, False, 4, False, False, True, mamifero
+'javali', True, False, False, True, False, False, True, True, True, True, False, False, 4, True, False, True, mamifero
+'búfalo', True, False, False, True, False, False, False, True, True, True, False, False, 4, True, False, True, mamifero
+'bezerro', False, False, False, False, False, False, False, True, True, True, False, False, 4, True, False, False, mamifero
+'carpa', False, False, True, False, False, True, True, False, True, False, False, True, 0, False, False, True, peixe
+'bagre', False, False, True, False, False, True, True, False, True, False, False, True, 0, False, False, False, peixe
+'girafa', True, False, False, True, False, False, False, True, True, True, False, False, 4, True, False, False, mamifero
+'menina',  False, False, True, False, False, True, True, False, True, False, False, True, 0, False, False, False, peixe
+'mosquito', False, False, True, False, True, False, False, False, False, True, True, False, 6, False, False, True, inseto
+'cabra', True, False, False, True, False, False, False, True, True, True, False, False, 4, True, False, True, mamifero
+'gorila', True, False, False, True, False, False, False, True, True, True, False, False, 4, False, False, True, mamifero
+'gaivota', False, True, True, False, True, False, True, False, True, True, False, False, 2, False, False, True, ave
+'arinca', False, False, True, False, False, True, True, False, True, False, False, True, 0, False, False, False, peixe
+'hamster', True, False, False, True, False, False, False, True, True, True, False, False, 4, False, True, True, mamifero
+'lebre',  True, False, False, False, False, False, True, True, True, False, False, 4, False, False, True, mamifero
+'gambá', True, False, False, True, False, False, False, True, True, True, False, False, 4, True, False, True, mamifero
+'órix', True, False, False, True, False, False, False, True, True, True, False, False, 4, True, False, True, mamifero
+'avestruz', False, True, True, False, False, False, True, False, True, True, False, False, 2, False, False, True, ave
+'periquito', False, True, True, False, True, False, False, False, True, True, False, False, 2, True, True, True, ave
+'pinguim', True, False, True, False, False, True, False, False, True, True, False, False, 2, True, False, False, ave
+'faisão', False, True, True, False, False, False, True, False, True, True, False, False, 2, False, False, True, ave
+'piranha', False, False, True, False, False, True, True, True, True, False, False, True, 0, False, False, True, peixe
+'jararaca', False, False, True, False, False, False, True, True, False, True, True, False, 0, False, False, True, invertebrado
+'ornitorrinco', True, False, True, True, False, True, False, False, True, True, False, True, 4, True, False, True, mamifero
+'gaivota', False, True, True, False, True, False, True, False, True, True, False, False, 2, True, False, True, ave
+'lesma', False, False, False, False, False, False, False, False, False, True, False, False, 0 , False, False, False, invertebrado
+'linguado', False, False, True, False, False, True, True, True, False, True, False, True, 0, True, False, True, peixe
+'pardal', False, True, True, False, True, False, True, False, True, True, False, False, 2, True, False, True, ave
+'esquilo', True, False, False, True, False, False, False, True, True, True, False, False, 4, True, False, True, mamifero
+'estrela do mar', False, False, True, False, False, True, True, False, False, True, False, False, 5, False, False, False, invertebrado
+'arraia', False, False, True, False, False, True, True, True, False, True, True, True, 0 ,True, False, True, peixe
+'cisne', False, True, True, False, True, False, False, False, True, True, False, False, 2, True, False, True, ave
+'cupim', False, False, True, False, False, False, False, False, False, True, False, False, 6, False, False, False, inseto
+'vespa', True, False, True, False, True, False, True ,False, False, True ,True, False, 6, False, False, True, inseto
+'lobo', True, False, False, True, False, False, True, True, True, True, False, False, 4 , True, False, True, mamifero
