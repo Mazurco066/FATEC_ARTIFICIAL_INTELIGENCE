@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.web.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="434.0" prefWidth="613.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="testandoscenebuilder.FXMLDocumentController">
+   <children>
+      <Button fx:id="btnClick" layoutX="422.0" layoutY="371.0" mnemonicParsing="false" onAction="#clicouBotao" text="Clique em mim!">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <CheckBox fx:id="checkFigadoFirme" layoutX="201.0" layoutY="172.0" mnemonicParsing="false" onAction="#clickFigadoFirme" text="Fígado firme" />
+      <CheckBox fx:id="checkSteroid" layoutX="32.0" layoutY="133.0" mnemonicParsing="false" onAction="#clickSteroid" text="Steroid" />
+      <CheckBox fx:id="checkAntVirals" layoutX="32.0" layoutY="172.0" mnemonicParsing="false" onAction="#clickAntivirals" text="Antivirals" />
+      <CheckBox fx:id="checkFatigue" layoutX="33.0" layoutY="210.0" mnemonicParsing="false" onAction="#clickFatiga" text="Fatiga" />
+      <CheckBox fx:id="checkMalaise" layoutX="32.0" layoutY="95.0" mnemonicParsing="false" onAction="#clickMalasia" text="Malasia" />
+      <CheckBox fx:id="checkAnorexia" layoutX="201.0" layoutY="95.0" mnemonicParsing="false" onAction="#clickAnorexia" text="Anorexia" textAlignment="JUSTIFY" />
+      <CheckBox fx:id="checkFigadoGrande" layoutX="201.0" layoutY="133.0" mnemonicParsing="false" onAction="#clickFigadoGrande" text="Figado grande" />
+      <Label layoutX="57.0" layoutY="14.0" text="Diagnóstico de câncer de mama" textAlignment="CENTER" textFill="#8a8585">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Label>
+      <CheckBox fx:id="checkBacoPalpavel" layoutX="202.0" layoutY="210.0" mnemonicParsing="false" onAction="#clickBacoPalpavel" text="Baço palável" textAlignment="JUSTIFY" />
+      <CheckBox fx:id="checkSpiders" layoutX="202.0" layoutY="246.0" mnemonicParsing="false" onAction="#clickAranhas" text="Aranhas" />
+      <CheckBox fx:id="checkHistology" layoutX="33.0" layoutY="246.0" mnemonicParsing="false" onAction="#clickHistologia" text="Histologia" />
+      <SplitMenuButton fx:id="menuButton" layoutX="389.0" layoutY="91.0" mnemonicParsing="false" text="Sexo">
+        <items>
+          <MenuItem fx:id="menuSexoFemale" mnemonicParsing="false" onAction="#selectFemale" text="Female" />
+          <MenuItem fx:id="menuSexoMale" mnemonicParsing="false" onAction="#selectMale" text="Male" />
+        </items>
+      </SplitMenuButton>
+      <TextField fx:id="txtIdade" layoutX="389.0" layoutY="129.0" promptText="Idade" />
+      <TextField fx:id="txtBili" layoutX="389.0" layoutY="168.0" promptText="Bilirubin" />
+      <TextField fx:id="txtAlkaline" layoutX="389.0" layoutY="206.0" promptText="Alkaline Phosphate" />
+      <TextField fx:id="txtSgot" layoutX="389.0" layoutY="242.0" promptText="Sgot" />
+      <TextField fx:id="txtAlbumin" layoutX="389.0" layoutY="277.0" promptText="Albumin" />
+      <TextField fx:id="txtProtime" layoutX="389.0" layoutY="312.0" promptText="Protime" />
+      <CheckBox fx:id="checkAscites" layoutX="33.0" layoutY="283.0" mnemonicParsing="false" onAction="#clickAscites" text="Ascites" />
+      <CheckBox fx:id="checkVarizes" layoutX="202.0" layoutY="283.0" mnemonicParsing="false" onAction="#clickVarizes" text="Varizes" />
+      <ImageView fx:id="imgView" fitHeight="103.0" fitWidth="225.0" layoutX="57.0" layoutY="320.0" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</AnchorPane>
